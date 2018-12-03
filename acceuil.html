@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Accueuil</title>
+	
+
+
+<!---SliCk Nav-->
+<link rel="stylesheet" href="SlickNav/slicknav.css" />
+<script src="SlickNav/jquery.slicknav.min.js"></script>
+
+	<script  src="jquery-3.3.1.js" ></script>
+
+	<script src="jquery.validate.js" ></script>
+	<script src="valid.js"></script>
+	
+<!--Bootstrap--->
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+<link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+	<nav>
+	<ul id="menu">
+		<li> <a id="signup"href="#register-form">Enregistrer</a></li>
+		<li> <a  id="login"href="#login-form"> LogIn </a></li>
+	</ul>
+	</nav>
+	<form id="register-form"  name="" method="POST" action="" enctype="multipart/form-data">
+		<div class="form-group">
+
+			 <table class="table-responsive">
+			 	<tr> 
+		<td> <h1>Entrer Votre Cin : </h1></td>
+		<td> <input type="text" id="cin"  name="cin" class="form-control" ></td>
+	</tr>
+	<tr>
+		<td> <h1>Entrer Votre mot de passe</h1> </td>
+		<td><input type="password" name="password" class="form-control" id="password"></td>
+		</tr>
+		
+		<td> <h1>Re-Entrer Votre mot de passe</h1> </td>
+		<td><input type="password" name="password2" class="form-control" id="password2"></td>
+		</tr>
+		
+		<td colspan="2" align="right"><input type="submit" class="form-control btn btn-primary" value="envoyer"></td></tr>
+	</table>
+	</form>
+</div>
+<hr>
+<form id="login-form"  name="" method="POST" action="" enctype="multipart/form-data">
+		<div class="form-group">
+
+			 <table class="table-responsive">
+			 	<tr> 
+		<td> <h1>Entrer Votre Cin : </h1></td>
+		<td> <input type="text" id="cin"  name="cin" class="form-control" ></td>
+	</tr>
+	<tr>
+		<td> <h1>Entrer Votre mot de passe</h1> </td>
+		<td><input type="password" name="password" class="form-control" id="password"></td>
+		</tr>
+		
+		<tr>
+		<td colspan="2" align="right"><input type="submit" class="form-control btn btn-primary" value="envoyer"></td></tr>
+	</table>
+	</form>
+
+</body>
+</html>

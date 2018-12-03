@@ -1,0 +1,37 @@
+body  {
+	background-color : #34495e;
+	height: 4000px;
+}
+td {
+
+	padding: 40px;
+}
+
+td h1 {
+	color: #ecf0f1;
+}
+
+.erreur {
+	color:red ; 
+}
+form {
+	margin-left:300px;
+}
+ nav {
+position: fixed ;
+ }
+nav ul{
+	list-style-type: none;
+	background-color: #1abc9c;
+	
+}
+
+nav ul li a {
+color: white ;
+
+}
+nav ul li {
+	display: inline;
+	width: 40px;
+	padding: 40px;
+}
